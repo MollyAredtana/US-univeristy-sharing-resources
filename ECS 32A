@@ -1,0 +1,21 @@
+'''
+Write a program to convert inches to centimeters, using the fact that there are 2.54 centimeters per inch. The program will be graded automatically, so please be sure that the input and output are exactly as specified below. The program should start by typing the two lines below
+
+To convert inches to centimeters
+enter inches:
+After the colon (and a space that is invisible above), the program should wait for the user to enter a number of inches (say 5.2 for example) and press the enter key, and then the program should respond with a line exactly like
+
+5.2 inches is 13.208 centimeters
+
+Thus the complete session for this example, including the user input, would look like
+
+To convert inches to centimeters
+enter inches: 5.2
+5.2 inches is 13.208 centimeters
+Note the space between the colon and the user input 5.2. Also note that when you submit the program, the input in inches and the newline that is part of the prepared test input will not be visible in the output, so the test output for comparison is instead
+
+To convert inches to centimeters
+enter inches: 5.2 inches is 13.208 centimeters
+The results of two test cases will be visible when you submit, but there are also two output-hidden tests that will count for credit. Hint: to read in a number with a decimal point and convert it from a string to a "floating point" number, use float(input()), which is similar to the usage of int(input()) to read in an integer, as discussed in section 1.6.
+'''
+
