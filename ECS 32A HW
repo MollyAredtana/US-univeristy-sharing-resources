@@ -1,3 +1,28 @@
+HW1
+'''
+(1) Output this tree. (2 pts)
+
+   *
+  ***
+ *****
+*******
+  ***
+
+(2) Below the tree (with two blank lines), output this cat. (2 pts)
+
+/\   /\
+  o o
+ =   =
+  ---
+Hint: A backslash \ in a string acts as an escape character, such as with a newline \n. So, to print an actual backslash, escape that backslash by prepending another backslash. Ex: The following prints a single backslash: print('\\')
+
+(3) Below the cat (with two blank lines) output one line with the URL address in our syllabus (there is a copy on our Canvas site) for the web site recommended for learning how to use the IDLE debugging tool. Include the initial "https://". To avoid typing errors, you can swipe the URL directly from the syllabus using the mouse cursor to highlight it (and in Windows copying it by pressing Ctrl C), and then paste it into your source code file.
+'''
+
+
+
+
+HW2
 '''
 Write a program to convert inches to centimeters, using the fact that there are 2.54 centimeters per inch. The program will be graded automatically, so please be sure that the input and output are exactly as specified below. The program should start by typing the two lines below
 
@@ -18,4 +43,11 @@ To convert inches to centimeters
 enter inches: 5.2 inches is 13.208 centimeters
 The results of two test cases will be visible when you submit, but there are also two output-hidden tests that will count for credit. Hint: to read in a number with a decimal point and convert it from a string to a "floating point" number, use float(input()), which is similar to the usage of int(input()) to read in an integer, as discussed in section 1.6.
 '''
+
+
+
+
+
+
+
 
