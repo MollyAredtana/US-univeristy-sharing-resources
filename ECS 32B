@@ -1,0 +1,62 @@
+HW1
+'''
+Problem 1 (30 Points): Complexity of a Code Sample
+For this problem you will analyze the complexity of the following bit of instructive Python code
+that does not solve anything important.
+a = 4
+b = 10
+for i in range(n):
+for j in range(a):
+total = total + 1
+for i in range(b):
+total = total + 1
+print(total)
+a)
+State a function T(n) for this code in terms of n. The function T(n) should give the number of
+statements executed by the Python interpreter as a function of the integer variable n. Explain
+your reasoning.
+b)
+Give the smallest worst-case (big-O) complexity for this code in terms of n that works. Formally
+prove it by finding c and n 0 such that T(n) <= cf(n) for n >= n 0
+
+Problem 2 (10 points): Exponential Complexity
+Suppose the number of operations required by a particular algorithm is exactly T(n) = 2 n and our
+1.6 Ghz computer performs exactly 1.6 billion operations per second. What is the largest
+problem, in terms of n, that can be solved in under a second? In under a day?
+
+Problem 3 (20 points): The Traveling Salesman Problem
+The Traveling Salesman problem (TSP) is famous. Given a list of cities and the
+distances in between them, the task is to find the shortest possible tour that starts at a
+city, visits each city exactly once and returns to a starting city. A particular tour can be
+described as list of all cities [c1,c2, c3, … ,cn] ordered by the position in which they are
+visited with the assumption that you return from the last city to the start.
+This is a hard problem, that is, there is no known efficient solution for this problem and
+we are not expecting one any time soon. Your task is to analyze the following brute
+force approach to solving the problem:
+Consider the following algorithm for solving the TSP:
+n = number of cities
+m = n x n matrix of distances between cities
+min = (infinity)
+for all possible tours do:
+find the length of the tour
+if length < min:
+min = length
+store tour
+State the worst-case (big-O) complexity of this algorithm in terms of (number of cities)?
+You may assume that matrix lookup is one step O(1). For deriving big-O here, you need
+not count the if-statement or the for-loop conditional (i.e., testing to see when the
+for-loop is done), or any of the initializations at the start of the algorithm.
+A formal proof is not required here, but clearly show the justification for your answer.
+
+Problem 4 (10 points): Complexity Bound Types
+Formal proofs are not required here but briefly explain your reasoning.
+Is log 2 (n) O(n)?
+Is log 2 (n) 𝝮(n)?
+Is log 2 (n) 𝝝(n)?
+
+Problem 5 (30 points): Calculating Bounds
+Suppose an algorithm solves a problem of size n in at most T(n) = 2n 3 + n 2 + 1 steps.
+a) Prove that T(n) is O(n 3 ). Show your work including values for c and n 0
+b) Prove that T(n) is 𝝝 (n 3 ) by proving that it is also 𝝮 (n 3 ) Show your work including values for c
+and n 0
+'''
